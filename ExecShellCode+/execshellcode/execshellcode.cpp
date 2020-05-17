@@ -1,7 +1,6 @@
 // execshellcode.cpp : This file contains the 'main' function. Program execution begins and ends there.
 // Author: @eln1x
 
-#include <iostream>
 #include <windows.h>
 
 #include <iostream>
