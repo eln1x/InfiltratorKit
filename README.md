@@ -1,5 +1,5 @@
 # Infiltrator Kit
-InfiltratorKit is a Red Team repository that includes projects that aid operators
+Infiltrator Kit is a Red Team repository that includes projects aids operators
 
 
 ## TokenThief+
