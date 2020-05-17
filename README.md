@@ -1,4 +1,4 @@
-# InfiltratorKit
+# Infiltrator Kit
 InfiltratorKit is a Red Team repository that includes projects that aid operators
 
 
