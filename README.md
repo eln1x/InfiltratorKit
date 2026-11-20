@@ -1,16 +1,28 @@
 # Infiltrator Kit
-Infiltrator Kit is a Red Team repository that includes projects aids operators
 
+Infiltrator Kit is a collection of Windows C++ proof-of-concept projects that
+demonstrate security-sensitive process and access-token techniques. The code is
+provided for authorized security research and defensive analysis.
 
-## TokenThief+
+## Projects
 
-Named Pipe server capable of stealing token from a client process and spawning cmd.exe with the stolen token SeImpersonatePrivilege rights
-    
-## ExecShellCode+ 
+| Project | Overview |
+| --- | --- |
+| `TokenThief+` | Demonstrates named-pipe-based access-token impersonation. |
+| `ExecShellCode+` | Demonstrates transferring execution to a memory-resident payload. |
+| `ShellCodeThread+` | Demonstrates remote-thread-based execution of a memory-resident payload. |
 
-Execute shellcode by diverting the execution with *exec* function to a shellcode pointer	
-	
-## ShellCodeThread+
+These techniques can be used to compromise systems. This repository is not a
+general-purpose software package, and its contents should not be run on systems
+you do not own or have explicit permission to assess.
 
-Execute shellcode by creating a remote thread and copy the content of the shellcode to the thread and redirect the execution to the thread.
+## Safety and scope
+
+- Use only in an isolated lab or during a formally authorized assessment.
+- Do not use the code to access accounts, processes, or systems without
+  authorization.
+- Review and understand the source before handling it; do not treat these
+  proof-of-concepts as safe or production-ready.
+- This repository is for research and defensive analysis, not a deployment
+  guide. It does not provide build or execution instructions.
 
